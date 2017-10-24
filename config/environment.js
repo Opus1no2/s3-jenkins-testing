@@ -39,6 +39,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    console.log('omg')
   }
 
   return ENV;
